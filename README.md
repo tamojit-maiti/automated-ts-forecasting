@@ -1,5 +1,5 @@
 # automated-ts-forecasting
-> forecasting a single time-series is easy, forecasting multiple time series is **hard**
+> forecasting a single time-series is easy, forecasting multiple-time series is **hard**
 
 ## Motivation
 
