@@ -5,6 +5,14 @@
 
 Forecasting at scale calls for an entirely new approach that the current paradigm of 'looking at ACF/PACF plots to squeeze out model parameters' cannot be applied, because the number of time-series involved tend to be in the hundreds, if not thousands. This is particularly the case in retail, where inventory optimization solutions require a robust demand forecasting solution for thousands of SKUs. The demands of several SKUs can be cross-correlated and additionally lagged.  
 
+## Structure
+
+The success of any good forecasting package lies in its ability to innately differentiate between model behaviour, sampling errors, outliers and noise. We aim to estimate each of the time series constituents and then move on to prediction. 
+- ### Trend
+- ### Seasonality
+- ### Outliers
+- ### Noise
+
 ## Research so far
 
 I've scoured the interwebs and stumbled upon very few resources to go about in the topic. Whatever meagre resources I've managed to track down are listed below. 
