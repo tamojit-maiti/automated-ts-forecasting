@@ -13,3 +13,4 @@ I've scoured the interwebs and stumbled upon very few resources to go about in t
 - [Python package - AutoTS](https://pypi.org/project/AutoTS/)
 - [Cross Validated - Is it possible to automate time-series forecasting?](https://stats.stackexchange.com/questions/380599/is-it-possible-to-automate-time-series-forecasting)
 - [Cross Validated - Time Series Forecasting is an iterative process much like peeling an onion](https://stats.stackexchange.com/a/254496/122124)
+- [Cross-Validated - Flowchart for Automated Time Seres Forecasting](https://i.stack.imgur.com/5rqlo.png)
