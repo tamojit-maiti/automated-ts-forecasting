@@ -8,10 +8,10 @@ Forecasting at scale calls for an entirely new approach that the current paradig
 ## Structure
 
 The success of any good forecasting package lies in its ability to innately differentiate between model behaviour, sampling errors, outliers and noise. We aim to estimate each of the time series constituents and then move on to prediction. 
-- ### Trend
-- ### Seasonality
-- ### Outliers
-- ### Noise
+- #### Trend
+- #### Seasonality
+- #### Outliers
+- #### Noise
 
 ## Research so far
 
