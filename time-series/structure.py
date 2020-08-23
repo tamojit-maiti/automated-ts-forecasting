@@ -2,7 +2,7 @@ import numpy as np
 
 class TimeSeries:
     """
-    Defines the baseClass timeSeries
+    Defines the baseClass TimeSeries
     """
 
     def __init__(self, y, X=None):
@@ -30,6 +30,3 @@ class TimeSeries:
                + is_multivariate*('and '
                                   + ('None' if self.X is None else str(np.array(self.X).shape[1]))
                                   + 'exogenous variables')
-
-a = TimeSeries(y = [1,2,3,4])
-print(a)
