@@ -2,7 +2,7 @@ import numpy as np
 
 class TimeSeries:
     """
-    Defines the baseClass TimeSeries
+    Defines the BaseClass TimeSeries
     """
 
     def __init__(self, y, X=None):
