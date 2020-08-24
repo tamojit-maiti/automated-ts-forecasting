@@ -2,9 +2,12 @@
 """
 Base Class for all Trend Estimators
 """
-import numpy as np
 
-class BaseTrendEstimator():
+import numpy as np
+import pandas as pd
+
+
+class BaseTrendEstimator:
     """
     Abstract Class for all Trend Estimators
     """
@@ -15,8 +18,22 @@ class BaseTrendEstimator():
         """
         pass
 
-    def fit(self, y, X = None):
+    def fit(self, y:pd.Series , X:pd.DataFrame = None):
         """
-        Fits trend of y
-        :return: series containing trend_y, indexed by
+        Fits a trend line
+
+        :param y: [series] variable / target variable (for multivariate time-series)
+        :param X: [dataframe] exogenous variables (for multivariate time-series)
+        :return: TrendEstimator object
         """
+        return pass
+
+    def predict(self, y: pd.Series ,n:int, X: pd.dataframe = None ):
+        """
+
+        :param y: [series] variable / target variable (for multivariate time-series)
+        :param X: [dataframe] exogenous variables (for multivariate time-series)
+        :param n: [int] number of time-steps to estimate trend
+        :return: Trend values for the next 'n' steps
+        """
+        
