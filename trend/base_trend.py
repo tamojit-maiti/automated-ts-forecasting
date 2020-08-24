@@ -20,16 +20,16 @@ class BaseTrendEstimator:
         """
         Fits a trend line
 
-        :param y: [series] variable / target variable (for multivariate time-series)
-        :param X: [dataframe] exogenous variables (for multivariate time-series)
+        :param y: [series] variable / target variable (for multivariate time_series)
+        :param X: [dataframe] exogenous variables (for multivariate time_series)
         :return: TrendEstimator object
         """
         pass
 
     def predict(self, y:pd.Series ,n:int, X: pd.DataFrame = None )-> pd.Series:
         """
-        :param y: [series] variable / target variable (for multivariate time-series)
-        :param X: [dataframe] exogenous variables (for multivariate time-series)
+        :param y: [series] variable / target variable (for multivariate time_series)
+        :param X: [dataframe] exogenous variables (for multivariate time_series)
         :param n: [int] number of time-steps to estimate trend
         :return: Trend values for the next 'n' steps
         """

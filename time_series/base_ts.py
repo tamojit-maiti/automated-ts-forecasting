@@ -17,14 +17,14 @@ class TimeSeries:
     def __repr__(self):
         """
         Representation of a TimeSeries object
-        :return: returns  a general description (the shape and frequency) of the time-series passed
+        :return: returns  a general description (the shape and frequency) of the time_series passed
         """
         if self.X is None:
             is_multivariate = False
         else:
             is_multivariate = True
 
-        return 'The time-series is ' \
+        return 'The time_series is ' \
                + ('univariate' if self.X is None else 'multivariate') + ' with ' \
                + str(np.array(self.y).shape[0]) + ' time steps ' \
                + is_multivariate*('and '
