@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Base Trend Class for all Trend Estimators
+Base Class for all Trend Estimators
 """
 import numpy as np
 
-class TrendEstimator(TimeSeries):
+class BaseTrendEstimator():
     """
-    Defines the Trend Class for the TimeSeries object
+    Abstract Class for all Trend Estimators
     """
 
     def __init__(self):
@@ -15,4 +15,8 @@ class TrendEstimator(TimeSeries):
         """
         pass
 
-    def
+    def fit(self, y, X = None):
+        """
+        Fits trend of y
+        :return: series containing trend_y, indexed by
+        """
